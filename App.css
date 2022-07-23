@@ -1,0 +1,48 @@
+.App{
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);;
+}
+
+.serchForm{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serchBar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.serchButton{
+  color: white;
+  padding: 5px 10px;
+  background-color: lightcoral;
+  border: none;
+}
+
+.recepis{
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+}
+.recept{
+  border-radius: 10px;
+  background-color: white;
+  box-shadow:0 5px 20px  rgba(112, 128, 144, 0.822);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 40%;
+  margin: 10px;
+}
+
+.imadg{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
